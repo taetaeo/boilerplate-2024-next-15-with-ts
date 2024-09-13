@@ -1,0 +1,24 @@
+{
+  "name": "@taeo/boilerplate-2024-next-14-with-ts",
+  "description": "This is boilerplate for next 14",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "taetaeo <ohtk1119@gmail.com>",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "app/client",
+      "app/server"
+    ]
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/taetaeo/boilerplate-2024-next-15-with-ts.git"
+  },
+  "scripts": {
+    "client": "yarn workspace @taeo/client",
+    "server": "yarn workspace @taeo/server"
+  },
+  "homepage": "https://github.com/taetaeo"
+}
